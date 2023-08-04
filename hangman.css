@@ -1,0 +1,176 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    height: 80%;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 1.5625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.625rem;
+}
+.container h2{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+#output
+{
+    font-size: 1.125rem;
+    color: black;
+    font-weight: bold;
+}
+#playagain h3{
+    font-size: 1.125remx;
+    color: black;
+    font-weight: bold;
+}
+.container input
+{
+    padding: 0.625rem 1.875rem;
+    border-radius: 0.3rem;
+    border-color: black;
+}
+.container h4
+{
+    font-weight: bold;
+}
+input
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    color: black;
+}
+.container button
+{
+    cursor: pointer;
+    padding: 0.625rem 1.875rem;
+    border-color: black;
+    font-size: 0.9375rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+.small-container
+{
+   display: none;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+p
+{
+    font-size: 1.125rem;
+    color: black;
+    font-weight: bold;
+}
+#playagain
+{
+    display: none;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+#playagain  h2{
+    font-size: 1.5626rem;
+    color: black;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+.container
+{
+    height: 90%;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 1.5625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.625rem;
+}
+.container h2{
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+}
+#output
+{
+    font-size: 1.125rem;
+    color: black;
+    font-weight: bold;
+}
+#playagain h3{
+    font-size: 1.125remx;
+    color: black;
+    font-weight: bold;
+}
+.container input
+{
+    padding: 0.625rem 1.875rem;
+    border-radius: 0.3rem;
+    border-color: black;
+}
+.container h4
+{
+    font-weight: bold;
+}
+input
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    color: black;
+}
+.container button
+{
+    cursor: pointer;
+    padding: 0.625rem 1.875rem;
+    border-color: black;
+    font-size: 0.9375rem;
+    background-color: black;
+    color: #fff;
+    border-radius: 0.3rem;
+}
+.small-container
+{
+   display: none;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+p
+{
+    font-size: 1.125rem;
+    color: black;
+    font-weight: bold;
+}
+#playagain
+{
+    display: none;
+    justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+#playagain  h2{
+    font-size: 1.5626rem;
+    color: black;
+    font-weight: bold;
+}
+
+}
